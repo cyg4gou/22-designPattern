@@ -1,4 +1,4 @@
-package struct.composite;
+package struct.composite.ond;
 
 import java.util.ArrayList;
 import java.util.List;

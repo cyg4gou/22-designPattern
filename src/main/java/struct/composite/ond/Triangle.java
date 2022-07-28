@@ -1,4 +1,4 @@
-package struct.composite;
+package struct.composite.ond;
 
 public class Triangle implements Shape{
     @Override
