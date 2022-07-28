@@ -11,7 +11,7 @@ public class DecoratorTest {
 }
 //抽象构件角色
 interface Component {
-    public void operation();
+    void operation();
 }
 //具体构件角色
 class ConcreteComponent implements Component {
@@ -24,7 +24,7 @@ class ConcreteComponent implements Component {
 }
 //抽象装饰角色
 class Decorator implements Component {
-    private Component component;
+    private final Component component;
     public Decorator(Component component) {
         this.component = component;
     }
